@@ -53,3 +53,21 @@ The goal is to build a realistic internal engineering dashboard that combines:
 - frontend dashboard development
 - CI/CD basics
 - GitHub workflow practice
+
+## Development Plan
+
+The project will be developed in small GitHub pull requests.
+
+Initial development order:
+
+1. Backend skeleton
+2. PostgreSQL models
+3. Pipeline API
+4. Seed data
+5. React frontend setup
+6. Dashboard UI
+7. Incident tracker
+8. Data quality checks
+9. Docker Compose
+10. GitHub Actions CI
+11. Documentation and screenshots

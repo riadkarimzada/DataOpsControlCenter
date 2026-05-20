@@ -141,3 +141,48 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python testing / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# FastAPI / local backend files
+backend/.env
+backend/.venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/tests/__pycache__/
+
+# Alembic / database local files
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker / local volumes
+postgres_data/
+docker-data/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
